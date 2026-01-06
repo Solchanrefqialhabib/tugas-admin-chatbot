@@ -1,0 +1,126 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #e8f0ff, #f5f7fa);
+  margin: 0;
+  padding: 30px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.08);
+  margin-bottom: 20px;
+}
+
+.flex {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-danger {
+  background: #ef4444;
+}
+
+.badge-success {
+  background: #22c55e;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+.badge-cancel {
+  background: #ef4444;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+.chat-box {
+  height: 420px;
+  overflow-y: auto;
+  background: #f8fafc;
+  padding: 16px;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* BUBBLE UMUM */
+.chat {
+  max-width: 72%;
+  padding: 10px 14px;
+  font-size: 14px;
+  line-height: 1.5;
+  border-radius: 14px;
+  word-wrap: break-word;
+}
+
+/* USER (KANAN) */
+.chat.user {
+  align-self: flex-end;
+  background: #2563eb;
+  color: white;
+  border-bottom-right-radius: 6px;
+}
+
+/* AI (KIRI) */
+.chat.ai {
+  align-self: flex-start;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  color: #111827;
+  border-bottom-left-radius: 6px;
+}
+
+
+/* TYPING */
+.typing {
+  font-size: 12px;
+  color: #64748b;
+  margin-top: 4px;
+  display: none;
+}
+
+.chat-input {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 20px;
+  border: 1px solid #cbd5f5;
+  outline: none;
+}
+
+.chat-input button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.chat-input button:hover {
+  background: #1e40af;
+}
