@@ -3,7 +3,6 @@
 Project ini merupakan **sistem admin sederhana untuk manajemen pembelian toko** yang dilengkapi dengan **Chatbot AI Business Consultant**.  
 Aplikasi dibangun menggunakan **Node.js, Express.js, EJS, dan SQL Database** dengan tampilan UI modern dan responsif.
 
-Project ini dibuat untuk memenuhi **pretest technical test Web Developer / IT Support**.
 
 ---
 
@@ -97,6 +96,7 @@ git clone https://github.com/username/nama-repo.git
 cd nama-repo
 
 2️⃣ Install Dependencies
+
 npm install
 
 3️⃣ Setup Environment
